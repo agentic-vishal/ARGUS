@@ -1,0 +1,56 @@
+[
+  {
+    "document_id": "contract-abc-2026",
+    "text": "Supplier ABC supplies GPU accelerators for Product Alpha. The agreement is active through 2026 and requires 45 days of safety stock for export-control disruptions.",
+    "metadata": {
+      "supplier": "Supplier ABC",
+      "product": "Product Alpha",
+      "region": "China",
+      "document_type": "contract",
+      "confidentiality": "restricted",
+      "valid_from": "2026-01-01",
+      "valid_until": "2026-12-31",
+      "source_date": "2026-01-10",
+      "version": "v3"
+    }
+  },
+  {
+    "document_id": "contract-abc-2024-expired",
+    "text": "Supplier ABC supplied accelerator components for Product Alpha under an older agreement with a 15 day inventory commitment.",
+    "metadata": {
+      "supplier": "Supplier ABC",
+      "product": "Product Alpha",
+      "region": "China",
+      "document_type": "contract",
+      "confidentiality": "restricted",
+      "valid_from": "2024-01-01",
+      "valid_until": "2024-12-31",
+      "source_date": "2024-01-01",
+      "version": "v1"
+    }
+  },
+  {
+    "document_id": "bom-product-gamma-2026",
+    "text": "Product Gamma bill of materials includes XYZ Components power modules. The product is manufactured for North America and Europe.",
+    "metadata": {
+      "supplier": "XYZ Components",
+      "product": "Product Gamma",
+      "region": "North America",
+      "document_type": "bill_of_materials",
+      "confidentiality": "internal",
+      "valid_from": "2026-02-01",
+      "source_date": "2026-02-05"
+    }
+  },
+  {
+    "document_id": "policy-continuity-2026",
+    "text": "Business continuity policy requires procurement to identify alternate suppliers when a critical component has fewer than 60 days of coverage.",
+    "metadata": {
+      "region": "Global",
+      "document_type": "business_continuity",
+      "confidentiality": "internal",
+      "valid_from": "2026-01-01",
+      "source_date": "2026-01-02"
+    }
+  }
+]
